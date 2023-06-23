@@ -60,14 +60,14 @@ passwd:
   users:
   - name: core
     ssh_authorized_keys:
-    - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAIEA0QIsn450XjpKdoAicWqu6pgoc7h+lUokibTF75NcLVhrhnOn8aVpV+MemlE6kt6wjZDK7WyTEX1+/4dIFwH92+TJwBRKG8Yd0aTFHjWZg7K/dZAak041sF21D9K+7R0PtZK/B6szbdN9bZtwss2ebuzMu9Pxw3Rzq/PsPfl9nzs=
+    - ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFX8mGDkEp+HbOxXqXyj/YW18QjXHtwYYSZztnAVQcpxXuqlVv54GocjSCgjAzZa1EoV7adTl0oU44GfzE+k9rA= omer@fedora
   - name: depot
     uid: 15000
     primary_group: depot
     no_user_group: true
     system: false
     ssh_authorized_keys:
-    - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAIEA0QIsn450XjpKdoAicWqu6pgoc7h+lUokibTF75NcLVhrhnOn8aVpV+MemlE6kt6wjZDK7WyTEX1+/4dIFwH92+TJwBRKG8Yd0aTFHjWZg7K/dZAak041sF21D9K+7R0PtZK/B6szbdN9bZtwss2ebuzMu9Pxw3Rzq/PsPfl9nzs=
+    - ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFX8mGDkEp+HbOxXqXyj/YW18QjXHtwYYSZztnAVQcpxXuqlVv54GocjSCgjAzZa1EoV7adTl0oU44GfzE+k9rA= omer@fedora
     shell: "/bin/bash"
 
 # (Required) The directories referenced in this storage block (/mnt/drive*) should be changed to match the number of storage drives on your server
